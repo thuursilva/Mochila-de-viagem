@@ -17,7 +17,7 @@ body {
 }
 
 .principal {
-    width: 60%;
+    width: 90%;
     padding: 2em 2em 2em;
     box-sizing: border-box;
     display: flex;
@@ -28,8 +28,8 @@ body {
 }
 
 .mochila{
-    background: url(assets/mochila-96.png);
-    padding: 3em;
+    background: url(assets/mochila\ desktop.png);
+    padding: 4em;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -88,9 +88,21 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1200px){
     .conteudo{
         flex-direction: column;
         align-items: center;
     }
+
+    .principal{
+        width: 100%;
+    }
+
 }
+
+@media (max-width: 553px){
+    .principal{
+        padding: 1em;
+    }
+}
+
