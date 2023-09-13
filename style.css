@@ -92,7 +92,7 @@ body {
     .conteudo{
         flex-direction: column;
         align-items: center;
-        padding: 5vh 2em 0;
+        padding: 5vh 1em 0;
     }
 
     .principal{
@@ -104,10 +104,6 @@ body {
 @media (max-width: 553px){
     .principal{
         padding: 1em;
-    }
-
-    .conteudo{
-        padding:5vh 1em 0;
     }
 }
 
