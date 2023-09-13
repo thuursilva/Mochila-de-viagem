@@ -105,5 +105,9 @@ body {
     .principal{
         padding: 1em;
     }
+
+    .conteudo{
+        padding: 5vh 0.5em 0;
+    }
 }
 
